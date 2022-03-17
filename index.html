@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="forms.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1 class="txt">SignUp</h1>
+    <form class="form1">
+       
+        <div class="F_fields">
+           Enter your Name:
+           <input type="text" name="Username">
+        </div>
+        <div class="F_fields">
+            Enter your Email-id:
+            <input type="email" name="email-id">
+        </div>
+        <div class="F_fields">
+            Enter your Age:
+            <input type="date" name="age">
+        </div>
+        <div class="F_fields">
+            Enter Password:
+            <input type="password" name="password">
+        </div>
+        <div class="F_fields">  
+           Confirm Password:
+           <input type="password" name="password">   
+        </div>     
+        <div class="F_fields radio_f">  
+            Gender:
+            <div class="r_property"><input type="radio" name="male" value="male">male</div>
+           <div class="r_property"><input type="radio" name="female" value="female"> female</div>
+            <div class="r_property"><input type="radio" name="others" value="others"> others</div>
+         </div> 
+         <div class="F_fields">
+            Security Question:<br>
+             <select name="Security-question">
+                 <option selected>Security-question</option>
+                <option value="pet-name">What is your pet-name</option>
+                <option value="nick-name">What is your nick-name</option>
+                <option value="favourite-book">Favourite book name</option>
+             </select>
+         </div>
+         <div class="F_fields">
+             <textarea  name="answer"></textarea>
+         </div>
+         <div class="F_fields">
+             Upload your Resume:<br>
+             <input type="file" name="Resume">
+         </div>
+         <div class="F_fields">
+         </div>
+         <div class="F_fields check_f">
+
+            <div class="c_property"><input type="checkbox" name="terms" value="accept"> I Agree the terms and conditions.</div> 
+         </div>
+         <div class="F_fields"> 
+             <input type="submit" value="Register">
+         </div>
+                                        
+     </form>
+</body>
+</html>
